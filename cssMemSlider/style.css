@@ -49,10 +49,9 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 30px;
+  width: 40px;
   height: 40px;
   cursor: pointer;
-  margin-right: 10px;
 }
 .label:last-child {
   margin-right: 0px;
@@ -142,8 +141,10 @@ p {
     width: 18%;
     order: -1;
   }
-  .label {
-    margin-right: 5px;
+}
+@media (max-width: 700px) {
+  .nav {
+    width: 25%;
   }
 }
 @media (max-width: 600px) {
