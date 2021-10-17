@@ -90,6 +90,7 @@ p {
   transition: 0.7s;
 }
 .img {
+  border-radius: 25px;
   max-width: 100%;
   height: auto;
 }
